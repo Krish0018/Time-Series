@@ -42,4 +42,6 @@ For ARIMA
 from statsmodels.tsa.arima_model import ARIMA
 
 ### Key Insights
+Finding the rolling mean and standard deviation from the data we got after logscaled data minus moving average
 
+<img width="491" alt="ma" src="https://user-images.githubusercontent.com/69238621/140741199-7821a183-ed48-4155-9b2c-84a8a0992817.PNG">
