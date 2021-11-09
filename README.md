@@ -18,28 +18,19 @@ ARIMA
 
 ### Installation
 for numpy
-import numpy as np  
+```pip install numpy```  
 
 for Pandas
-import pandas as pd
+ ```pip install pandas```
 
 For Matplotlib
-import matplotlib.pyplot as plt
+```pip install matplotlib```
 
 For Seaborn
-import seaborn as sns
+```pip install seaborn```
 
-For Adfuller
-from statsmodels.tsa.stattools import adfuller
-
-For seasonal_decompose
-from statsmodels.tsa.seasonal import seasonal_decompose
-
-For ACF, PACF
-from statsmodels.tsa.stattools import acf, pacf
-
-For ARIMA
-from statsmodels.tsa.arima_model import ARIMA
+For Statsmodels
+```pip install statsmodels```
 
 ### Key Insights
 Finding the rolling mean and standard deviation from the data we got after logscaled data minus moving average
